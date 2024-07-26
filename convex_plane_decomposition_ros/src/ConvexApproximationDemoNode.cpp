@@ -114,7 +114,7 @@ int main(int argc, char** argv) {
       }
     }
 
-    rclcpp::spin(node);
+    rclcpp::spin_some(node);
     rate.sleep();
   }
 
